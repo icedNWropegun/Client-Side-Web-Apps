@@ -122,12 +122,6 @@ const init = function () {
 };
 init();
 
-//this func is for development only
-const clearBookmarks = function () {
-  localStorage.clear();
-};
-// clearBookmarks();
-
 export const uploadRecipe = async function (newRecipe) {
   try {
     //Obj => [key, value] => create new Arr containing each 'entry' where only the first element of the array starts with "ingredient" & ignoring any empty "ingredient" elements [key, val] => Obj
