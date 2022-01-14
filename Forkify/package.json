@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe sharing web application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Nicholas Witter",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "@parcel/transformer-sass": "^2.0.0-nightly.633",
+    "parcel": "^2.0.0-nightly.631"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "fracty": "^1.0.9",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
