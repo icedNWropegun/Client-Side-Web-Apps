@@ -1,10 +1,8 @@
 # Client-Side Web Applications
 
-<!--
 // NOTE: None of these applications are hosted on a web server.
 // If you wish to interact with any of these client-side apps you
 // must pull the code and render it by spinning up a local server.
- -->
 
 1.) Bankist Landing Page: A responsive modern landing page for a simulated banking UI.
 
